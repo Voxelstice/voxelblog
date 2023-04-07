@@ -1,7 +1,7 @@
 {
-  useFallback: true,
-  provideAlert: {
-    alert: false,
-    msg: ""
+  "useFallback": true,
+  "provideAlert": {
+    "alert": false,
+    "msg": ""
   }
 }
