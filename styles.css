@@ -1,0 +1,78 @@
+* {
+    font-family: monospace;
+}
+
+body {
+    background-color: black;
+}
+
+/* Main */
+
+/* Text */
+p {
+    color: white;
+    font-size: 25px;
+
+    padding: 0px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    font-size: 45px;
+
+    padding: 0px;
+    margin-left: 4px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+h2 {
+    /*color: rgb(255, 115, 0);*/
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+
+    padding: 0px;
+    margin-left: 4px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+h3 {
+    /*color: rgb(255, 100, 100);*/
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+
+    padding: 0px;
+    margin-left: 4px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+/* Stuff for Markdown */
+blockquote {
+    background-color: rgba(63, 63, 63, 0.5);
+    border-color: rgba(127, 127, 127, 0.5);
+    border-width: 4px;
+    border-style: solid;
+}
+
+blockquote p {
+    margin-left: 16px;
+}
+
+
+pre {
+    padding: 16px 16px 16px 16px;
+    background-color: rgba(63, 63, 63, 0.5);
+    border-radius: 4px;
+}
+
+
+
+/* Extra */
+a:link, a:visited {
+    color: rgb(0, 127, 255);
+}
+a:hover {
+    color: rgb(0, 192, 255);
+}
