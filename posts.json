@@ -1,12 +1,22 @@
 [
    {
-    "user": {
-        "name": "Voxelstice",
-        "src": "https://cdn.discordapp.com/avatars/563639236507729920/dfee04f73ddb26872d5170572e75cbea.png?size=4096"
-    },
-    "post": {
-        "text": "# Hi and welcome to my first blog post\nThis blog site is something i've been coding for a while, using the *marked* library.\n\nAt first, it started with me testing out the marked library, then I noticed videos are not being embedded, so I spent time getting it to work\n\nSince it works now, here's a video of a cat named Maxwell.\n\n[video](https://cdn.discordapp.com/attachments/822365198743896094/1086723680635211887/maxwell2.mp4)\n\n<em style=\"font-size: 15px;\">i (hate) love regex!!!!!!!!!!!!!!!</em>\n\n# Comments and the backend\nRight now, I am not sure how to implement this since the backend server for this site is hosted with [repl.it](https://replit.com/). By default, the servers repl.it has are very bad. I get like 0.5 vCPUs, 512 MB of RAM, and 1,024 MBs of storage just for a server, and this is not enough for comments.\n\nThe second problem is the account system, as it usually helps in reducing spam. I do not know what service to use for this, and even if I knew one, there's a high possibility it's either paid or not compatible for use with repl.it.\n\n# Why did I make this site\nEver since I got access to the YouTube community tab, this seemed like the only way of posting updates for specific stuff and the channel. However, at 06/04/2023, YouTube randomly disabled my ability to make any new community posts.\n\n![Community tab and the channel](https://cdn.discordapp.com/attachments/822365198743896094/1093902201170178108/firefox_eJcxEtMRVw.png)\n\nThis came out of nowhere and I still dont know why this happened\n\n# Source code\nThis site is open-source on GitHub. The backend server is also open-source on GitHub. You are allowed to self-host this site all you want, but you have to credit Voxelstice (this project is simple but it took hours to make)",
-        "date": "07/04/2023 20:29 UTC+3"
-    }  
-  } 
+      "user": {
+         "name": "Voxelstice",
+         "src": "https://cdn.discordapp.com/avatars/563639236507729920/dfee04f73ddb26872d5170572e75cbea.png?size=4096"
+      },
+      "post": {
+         "text": "# Hi and welcome to my first blog post\nThis blog site is something i've been coding for a while, using the *marked* library to parse markdown text.\n\nAt first, it started with me testing out the marked library, then I noticed videos are not being embedded, so I spent time getting it to work\n\nSince it works now, here's a video of a cat named Maxwell.\n\n[video](https://cdn.discordapp.com/attachments/822365198743896094/1086723680635211887/maxwell2.mp4)\n\n<em style=\"font-size: 15px;\">i (hate) love regex!!!!!!!!!!!!!!!</em>\n\n# Comments and the backend\nRight now, I am not sure how to implement this since the backend server for this site is hosted with [repl.it](https://replit.com/). By default, the servers repl.it has are very bad. I get like 0.5 vCPUs, 512 MB of RAM, and 1,024 MBs of storage just for a server, and this is not enough for comments.\n\nThe second problem is the account system, as it usually helps in reducing spam. I do not know what service to use for this, and even if I knew one, there's a high possibility it's either paid or not compatible for use with repl.it.\n\n# Why did I make this site\nEver since I got access to the YouTube community tab, this seemed like the only way of posting updates for specific stuff and the channel. However, at 06/04/2023, YouTube randomly disabled my ability to make any new community posts.\n\n![Community tab and the channel](https://cdn.discordapp.com/attachments/822365198743896094/1093902201170178108/firefox_eJcxEtMRVw.png)\n\nThis came out of nowhere and I still dont know why this happened\n\n# Source code\nThis site is open-source on [GitHub](https://github.com/Voxelstice/voxelblog). The backend server is also open-source on GitHub. You are allowed to self-host this site all you want, but you have to credit Voxelstice (this project is simple but it took hours to make)",
+         "date": "07/04/2023 20:29 UTC+3"
+      }  
+   },
+   {
+      "user": {
+         "name": "Voxelstice",
+         "src": "https://cdn.discordapp.com/avatars/563639236507729920/dfee04f73ddb26872d5170572e75cbea.png?size=4096"
+      },
+      "post": {
+         "text": "# Current issues\nThis blog site is still new, and kinda rushed, so there is issues with the site right now.\n\nThe current and important issue is the server to the post list. I wanted to use repl.it for the post list, which allowed me to easily make new posts (if I ever decide to make a post editor for my own use), but it had a major issue being the CORS. I kind of eventually figured it out but in the time of writing this, repl.it apparently has an active incident \"Hosting is unstable and Redis connections are timing out\". This may explain why I was having such issues, but as of now I've switched to using GitHub for the posts.",
+         "date": "07/04/2023 22:47 UTC+3"
+      }
+   }
 ]
