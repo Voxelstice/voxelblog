@@ -48,26 +48,53 @@ h3 {
     margin-bottom: 2px;
 }
 
+/* Topbar */
+.topbar {
+    padding: 0px;
+    margin: 0px;
+    height: 48px;
+    background-color: rgb(63, 63, 63);
+}
+.topbarBtn {
+    font-size: 24px;
+
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 12px;
+    padding-right: 12px;
+
+    margin: 0px;
+
+    height: 48px;
+    background-color: rgb(63, 63, 63);
+    border: 0px;
+    color: rgb(255, 255, 255);
+}
+.topbarBtn:hover {
+    background-color: rgb(127, 127, 127);
+}
+
 /* Stuff for Markdown */
-blockquote {
+blockquote { /* Quote block */
     background-color: rgba(63, 63, 63, 0.5);
     border-color: rgba(127, 127, 127, 0.5);
     border-width: 4px;
     border-style: solid;
 }
-
 blockquote p {
     margin-left: 16px;
 }
 
-
-pre {
+pre { /* Code block */
     padding: 16px 16px 16px 16px;
     background-color: rgba(63, 63, 63, 0.5);
     border-radius: 4px;
 }
 
-
+li { /* List */
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+}
 
 /* Extra */
 a:link, a:visited {
