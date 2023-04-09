@@ -1,20 +1,25 @@
 // Parse text
 var videoRegex = new RegExp(`<a href="?.+">video<\/a>`)
-var linkRegex = new RegExp(/https?:\/\/(www\.)?[-a-zA-Z0-9@:%._\+~#=]{1,256}\.[a-zA-Z0-9()]{1,6}\b([-a-zA-Z0-9()@:%_\+.~#?&\/\/=]*)/gi)
+var linkRegex = new RegExp('https?:\\/\\/(www\\.)?[-a-zA-Z0-9@:%._\\+~#=]{1,256}\\.[a-zA-Z0-9()]{1,6}\\b([-a-zA-Z0-9()@:%_\\+.~#?&\\/\\/=]*)', 'gi')///https?:\/\/(www\.)?[-a-zA-Z0-9@:%._\+~#=]{1,256}\.[a-zA-Z0-9()]{1,6}\b([-a-zA-Z0-9()@:%_\+.~#?&\/\/=]*)/gi)
 
 function parseText(txt)
 {
-    var result = "An error occurred while generating text, please try again later"
-    var markedOutput = marked.parse(txt)
+    var result = txt + "\n\n " // To hopefully try and fix another issue
 
-    result = markedOutput
-
-    var videoResult = videoRegex.exec(markedOutput)
-    if (videoResult != null) {
-        videoResult.forEach(element => {
-            var linkResult = linkRegex.exec(element)
-            result = result.replace(element, `<video controls>\n<source src="${linkResult[0]}" type="video/mp4">\n</video>`)
-        })
+    try {
+        var markedOutput = marked.parse(txt)
+        result = markedOutput
+    
+        var videoResult = videoRegex.exec(markedOutput)
+        if (videoResult != null) {
+            videoResult.forEach(element => {
+                var linkResult = linkRegex.exec(element)
+                result = result.replace(element, `<video controls>\n<source src="${linkResult[0]}" type="video/mp4">\n</video>`)
+            })
+        }
+    } catch (err) {
+        result = result + `\n\n<em style="font-size: 15px; color: rgb(255, 127, 127);">This post has a error: ${err}<br>For the full stacktrace, please check the console</em>`
+        console.trace(err)
     }
 
     return result
@@ -87,7 +92,6 @@ function getPosts(url)
             if (requestReceived == true) { return }
             requestReceived = true
 
-            console.log(xhr.responseText)
             var json = JSON.parse(xhr.responseText)
 
             document.getElementById("posts").innerHTML = ""
