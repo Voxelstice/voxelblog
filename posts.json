@@ -48,5 +48,18 @@
          "text": "If you were wondering what happened to the profile pictures of my blog posts in this site, simply said, I changed my Discord profile picture which seemed to remove the regular profile picture I had from the Discord's servers (yes the link to my profile picture is just a Discord link)\n\nI have not shared stuff for a while, but 2 weeks ago I made a NTM RBMK Simulator. [Check it out here](https://voxelstice.github.io/ntm-rbmk-simulator/)\n\nUmm, the repl.it outage seems to have been fixed but I am probably not planning to use it for now\n\nOh by the way youtube seems to have gave my community tab access back, so I'll probably won't use this for a while but if there's anything major I need to share that I just can't fit into a single community post, it will be here",
          "date": "27/04/2023 23:04 UTC+3"
       }
+   },
+   {
+      "user": {
+         "name": "Voxelstice",
+         "src": "https://cdn.discordapp.com/avatars/563639236507729920/e53061b9ad289ecd55449b13a9d007ca.png?size=4096"
+      },
+      "post": {
+         "text": "Testing out comments using [giscus](https://giscus.app/). If you are reading this and don't see any comments, you might be too early as im still figuring out how to get it working.",
+         "date": "17/05/2023 19:47 UTC+3"
+      },
+      "giscus": {
+         "discussion": "The first post with comments"  
+      }
    }
 ]
