@@ -25,6 +25,44 @@ function parseText(txt)
     return result
 }
 
+// Stuff with comments
+function addCommentSection(info)
+{
+/*<script src="https://giscus.app/client.js"
+        data-repo="Voxelstice/voxelblog"
+        data-repo-id="R_kgDOJUCThA"
+        data-category="Comments"
+        data-category-id="DIC_kwDOJUCThM4CWjZ4"
+        data-mapping="specific"
+        data-term="The first post with comments"
+        data-strict="0"
+        data-reactions-enabled="0"
+        data-emit-metadata="0"
+        data-input-position="top"
+        data-theme="dark"
+        data-lang="en"
+        crossorigin="anonymous"
+        async>
+</script>*/
+    var giscus = document.createElement("script")
+    giscus.src = "https://giscus.app/client.js"
+    giscus.setAttribute("data-repo", "Voxelstice/voxelblog")
+    giscus.setAttribute("data-repo-id", "R_kgDOJUCThA")
+    giscus.setAttribute("data-category", "Comments")
+    giscus.setAttribute("data-category-id", "DIC_kwDOJUCThM4CWjZ4") // Do not ask how did the 4 letters end up like a... whatever word.
+    giscus.setAttribute("data-mapping", "specific")
+    giscus.setAttribute("data-term", info.giscus.discussion)
+    giscus.setAttribute("data-strict", "0")
+    giscus.setAttribute("data-reactions-enabled", "0")
+    giscus.setAttribute("data-emit-metadata", "0")
+    giscus.setAttribute("data-input-position", "0")
+    giscus.setAttribute("data-theme", "dark")
+    giscus.setAttribute("data-lang", "en")
+    giscus.setAttribute("crossorigin", "anonymous")
+
+    return giscus;
+}
+
 // Create post
 function createPost(info) 
 {
@@ -54,6 +92,11 @@ function createPost(info)
 
     postDiv.insertAdjacentElement("afterbegin", userInfoDiv)
     postDiv.insertAdjacentElement("beforeend", textDiv)
+
+    // Comments
+    if (info.giscus) {
+        postDiv.insertAdjacentElement("beforeend", addCommentSection(info))
+    } 
 
     document.getElementById("posts").insertAdjacentElement("afterbegin", document.createElement("br"))
     document.getElementById("posts").insertAdjacentElement("afterbegin", postDiv)
