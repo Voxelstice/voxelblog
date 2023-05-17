@@ -28,22 +28,7 @@ function parseText(txt)
 // Stuff with comments
 function addCommentSection(info)
 {
-/*<script src="https://giscus.app/client.js"
-        data-repo="Voxelstice/voxelblog"
-        data-repo-id="R_kgDOJUCThA"
-        data-category="Comments"
-        data-category-id="DIC_kwDOJUCThM4CWjZ4"
-        data-mapping="specific"
-        data-term="The first post with comments"
-        data-strict="0"
-        data-reactions-enabled="0"
-        data-emit-metadata="0"
-        data-input-position="top"
-        data-theme="dark"
-        data-lang="en"
-        crossorigin="anonymous"
-        async>
-</script>*/
+    console.log("It is in.")
     var giscus = document.createElement("script")
     giscus.src = "https://giscus.app/client.js"
     giscus.setAttribute("data-repo", "Voxelstice/voxelblog")
@@ -60,7 +45,7 @@ function addCommentSection(info)
     giscus.setAttribute("data-lang", "en")
     giscus.setAttribute("crossorigin", "anonymous")
 
-    return giscus;
+    return giscus
 }
 
 // Create post
