@@ -55,11 +55,8 @@
          "src": "https://cdn.discordapp.com/avatars/563639236507729920/e53061b9ad289ecd55449b13a9d007ca.png?size=4096"
       },
       "post": {
-         "text": "Testing out comments using [giscus](https://giscus.app/). If you are reading this and don't see any comments, you might be too early as im still figuring out how to get it working.",
+         "text": "Testing out comments using [giscus](https://giscus.app/). If you are reading this and don't see any comments, you might be too early as im still figuring out how to get it working.\n\n<em style=\"font-size: 15px;\">giscus for this post has been disabled due to a issue where it will load the specific comment section from a new post</em>",
          "date": "17/05/2023 19:47 UTC+3"
-      },
-      "giscus": {
-         "discussion": "The first post with comments"  
       }
    },
    {
