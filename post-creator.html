@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/x-icon" href="assets/niko_pancakes.png">
+    <title>Voxelstice's Blog Post Editor</title>
+</head>
+
+<body>
+    <!-- Topbar -->
+    <div class="topbar">
+        <button class="topbarBtn" onclick='window.location.href="https://voxelstice.github.io/"'>voxelstice.github.io</button>
+        <button class="topbarBtn" onclick='window.location.href="https://voxelstice.github.io/voxelblog/"'>Blog</button>
+    </div>
+
+    <br>
+  
+    <p>Welcome to the post editor, if you are just a user, <a href="https://voxelstice.github.io/voxelblog/">click here to go back.</a></p>
+    <p>This uses markdown, consider checking the <a href="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet">cheatsheet.</a></p>
+	
+    <input placeholder="Username" id="username"></input>
+    <br>
+    <input placeholder="User icon" id="usericon"></input>
+    <br>
+    <input placeholder="Post date" id="postdate"></input>
+    <br>
+    <textarea placeholder="Type something here" id="markdownoutput" style="resize: none; width: 750px; height: 250px;"></textarea>
+    <br>
+    <button onclick="givejson()">Return json output</button>
+
+    <!-- Posts -->
+    <div style="margin: auto; width: 1000px;" id="posts">
+    </div>
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+<script src="post-index.js"></script>
+
+</html>
