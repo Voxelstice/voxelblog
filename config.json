@@ -1,7 +1,0 @@
-{
-  "useFallback": true,
-  "provideAlert": {
-    "alert": false,
-    "msg": ""
-  }
-}
