@@ -1,52 +1,24 @@
 [
   {
-    "user": {
-      "name": "Voxelstice",
-      "src": "https://cdn.discordapp.com/avatars/563639236507729920/e53061b9ad289ecd55449b13a9d007ca.png?size=4096"
-    },
-    "post": {
-      "text": "# Hi and welcome to my first blog post\nThis blog site is something i've been coding for a while, using the *marked* library to parse markdown text.\n\nAt first, it started with me testing out the marked library, then I noticed videos are not being embedded, so I spent time getting it to work\n\nSince it works now, here's a video of a cat named Maxwell.\n\n[video](https://cdn.discordapp.com/attachments/822365198743896094/1086723680635211887/maxwell2.mp4)\n\n<em style=\"font-size: 15px;\">i (hate) love regex!!!!!!!!!!!!!!!</em>\n\n# Comments and the backend\nRight now, I am not sure how to implement this since the backend server for this site is hosted with [repl.it](https://replit.com/). By default, the servers repl.it has are very bad. I get like 0.5 vCPUs, 512 MB of RAM, and 1,024 MBs of storage just for a server, and this is not enough for comments.\n\nThe second problem is the account system, as it usually helps in reducing spam. I do not know what service to use for this, and even if I knew one, there's a high possibility it's either paid or not compatible for use with repl.it.\n\n<em style=\"font-size: 15px;\">UPDATE: [giscus](https://giscus.app/) is now being used for the comments. Read the post from 17/05/2023.</em>\n\n# Why did I make this site\nEver since I got access to the YouTube community tab, this seemed like the only way of posting updates for specific stuff and the channel. However, at 06/04/2023, YouTube randomly disabled my ability to make any new community posts.\n\n![Community tab and the channel](https://cdn.discordapp.com/attachments/822365198743896094/1093902201170178108/firefox_eJcxEtMRVw.png)\n\nThis came out of nowhere and I still dont know why this happened\n\n# Source code\nThis site is open-source on [GitHub](https://github.com/Voxelstice/voxelblog). The backend server is also open-source on GitHub. You are allowed to self-host this site all you want, but you have to credit Voxelstice (this project is simple but it took hours to make)",
-      "date": "07/04/2023 20:29 UTC+3"
-    }
+  	"info": {
+  		"title": "FIRST TEST BLOG POST AS OF 15/10/2023 22:39 (its night)",
+  		"header": "if this works im gonna happy"
+  	},
+  	"content": [
+  		"text.",
+  		"**marked the down**"
+  	]
   },
+  {"user":{"name":"Voxelstice","src":"https://cdn.discordapp.com/avatars/563639236507729920/e53061b9ad289ecd55449b13a9d007ca.png?size=4096"},"post":{"text":"Hi there, i did not post a blog post in a LONG long time.\n\nPlanning to actually remake the site completely, and probably fix a couple more bugs like the bug with embedded videos not working properly (possibly a regex issue that i did not notice while testing?)\n\nOh by the way i will also make it so that the blog posts don't show the whole text, but rather the title, description and the date of posting (just like what you would see in most blogs)\n\nMaybe i might also make a lot of stuff in one website, but that might get quite unreliable real fast. Maybe i'll try to figure out how to do seamless transitions with changing the website URLs\n\nExpect a lot of stuff to change in this week with this site, possibly. Even also a separate page for my projects eventually.\n\nOh by the way, the site might actually look cool when im done with the upcoming remake.\n\n<p style=\"scale: 50%\">on a different note i've been doing a little bit of PSP game development stuff</p>","date":"01/08/2023 21:12 UTC+3"}}
+  {"user":{"name":"Voxelstice","src":"https://cdn.discordapp.com/avatars/563639236507729920/e53061b9ad289ecd55449b13a9d007ca.png?size=4096"},"post":{"text":"This site is currently a mess. Maybe someday i'll get to revamping this site completely\n\nMight also have to use a different service for the comments, but it's likely it's because the comment sections are in one page.\n\nI don't really use this that much so uhhh.............................................................","date":"17/06/2023 13:17 UTC+3"}},
   {
     "user": {
       "name": "Voxelstice",
       "src": "https://cdn.discordapp.com/avatars/563639236507729920/e53061b9ad289ecd55449b13a9d007ca.png?size=4096"
     },
     "post": {
-      "text": "# Current issues\nThis blog site is still new, and kinda rushed, so there is issues with the site right now.\n\nThe current and important issue is the server to the post list. I wanted to use repl.it for the post list, which allowed me to easily make new posts (if I ever decide to make a post editor for my own use), but it had a major issue being the CORS. I kind of eventually figured it out but in the time of writing this, repl.it apparently has an active incident \"Hosting is unstable and Redis connections are timing out\". This may explain why I was having such issues, but as of now I've switched to using GitHub for the posts.",
-      "date": "07/04/2023 22:47 UTC+3"
-    }
-  },
-  {
-    "user": {
-      "name": "Voxelstice",
-      "src": "https://cdn.discordapp.com/avatars/563639236507729920/e53061b9ad289ecd55449b13a9d007ca.png?size=4096"
-    },
-    "post": {
-      "text": "# Site update - v0.0.2a\nHi, I've released a update for this site, here are the changes:\n\n- When there's a error in a post, it will have text below the post indicating a error has occurred.\n- Added a topbar for the [voxelstice.github.io](https://voxelstice.github.io) site and this site",
-      "date": "09/04/2023 16:55 UTC+3"
-    }
-  },
-  {
-    "user": {
-      "name": "Voxelstice",
-      "src": "https://cdn.discordapp.com/avatars/563639236507729920/e53061b9ad289ecd55449b13a9d007ca.png?size=4096"
-    },
-    "post": {
-      "text": "If you were wondering what happened to the profile pictures of my blog posts in this site, simply said, I changed my Discord profile picture which seemed to remove the regular profile picture I had from the Discord's servers (yes the link to my profile picture is just a Discord link)\n\nI have not shared stuff for a while, but 2 weeks ago I made a NTM RBMK Simulator. [Check it out here](https://voxelstice.github.io/ntm-rbmk-simulator/)\n\nUmm, the repl.it outage seems to have been fixed but I am probably not planning to use it for now\n\nOh by the way youtube seems to have gave my community tab access back, so I'll probably won't use this for a while but if there's anything major I need to share that I just can't fit into a single community post, it will be here",
-      "date": "27/04/2023 23:04 UTC+3"
-    }
-  },
-  {
-    "user": {
-      "name": "Voxelstice",
-      "src": "https://cdn.discordapp.com/avatars/563639236507729920/e53061b9ad289ecd55449b13a9d007ca.png?size=4096"
-    },
-    "post": {
-      "text": "Testing out comments using [giscus](https://giscus.app/). If you are reading this and don't see any comments, you might be too early as im still figuring out how to get it working.\n\n<em style=\"font-size: 15px;\">giscus for this post has been disabled due to a issue where it will load the specific comment section from a new post</em>",
-      "date": "17/05/2023 19:47 UTC+3"
+      "text": "# Devlog??\nMaybe!! I don't know what i'm exactly going for while making a game.\nI've kinda thought of having a factory-like game. You basically mine stuff and make a factory. and i also want to add space exploration\n\nHere's one video of the game\n[video](https://cdn.discordapp.com/attachments/822365198743896094/1112074199784226836/game_JnA5ehA2En.mp4)\n\nThis is just perlin noise, being used for ore generation. The little interface that you see on the left bottom corner is a [Dear ImGui](https://github.com/ocornut/imgui) interface. It's there mainly for determining which properties fit the most. \n\nWill I be making youtube videos for this? Maybe not. Maybe I will.\n\n<em style=\"font-size: 50%\">i really need to fix the fact that the video won't embed depending on the character count, this WASN'T intentional.</em>\n\n# Site update\nI spent time making some stupid post creator. Finally, the days of manually writing JSON are gone!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!\n\nYou can access it [here](https://voxelstice.github.io/voxelblog/post-creator). It's really useless for everyone else, but useful for me.",
+      "date": "27/05/2023 20:32 UTC+3"
     }
   },
   {
@@ -68,10 +40,48 @@
       "src": "https://cdn.discordapp.com/avatars/563639236507729920/e53061b9ad289ecd55449b13a9d007ca.png?size=4096"
     },
     "post": {
-      "text": "# Devlog??\nMaybe!! I don't know what i'm exactly going for while making a game.\nI've kinda thought of having a factory-like game. You basically mine stuff and make a factory. and i also want to add space exploration\n\nHere's one video of the game\n[video](https://cdn.discordapp.com/attachments/822365198743896094/1112074199784226836/game_JnA5ehA2En.mp4)\n\nThis is just perlin noise, being used for ore generation. The little interface that you see on the left bottom corner is a [Dear ImGui](https://github.com/ocornut/imgui) interface. It's there mainly for determining which properties fit the most. \n\nWill I be making youtube videos for this? Maybe not. Maybe I will.\n\n<em style=\"font-size: 50%\">i really need to fix the fact that the video won't embed depending on the character count, this WASN'T intentional.</em>\n\n# Site update\nI spent time making some stupid post creator. Finally, the days of manually writing JSON are gone!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!\n\nYou can access it [here](https://voxelstice.github.io/voxelblog/post-creator). It's really useless for everyone else, but useful for me.",
-      "date": "27/05/2023 20:32 UTC+3"
+      "text": "Testing out comments using [giscus](https://giscus.app/). If you are reading this and don't see any comments, you might be too early as im still figuring out how to get it working.\n\n<em style=\"font-size: 15px;\">giscus for this post has been disabled due to a issue where it will load the specific comment section from a new post</em>",
+      "date": "17/05/2023 19:47 UTC+3"
     }
   },
-  {"user":{"name":"Voxelstice","src":"https://cdn.discordapp.com/avatars/563639236507729920/e53061b9ad289ecd55449b13a9d007ca.png?size=4096"},"post":{"text":"This site is currently a mess. Maybe someday i'll get to revamping this site completely\n\nMight also have to use a different service for the comments, but it's likely it's because the comment sections are in one page.\n\nI don't really use this that much so uhhh.............................................................","date":"17/06/2023 13:17 UTC+3"}},
-  {"user":{"name":"Voxelstice","src":"https://cdn.discordapp.com/avatars/563639236507729920/e53061b9ad289ecd55449b13a9d007ca.png?size=4096"},"post":{"text":"Hi there, i did not post a blog post in a LONG long time.\n\nPlanning to actually remake the site completely, and probably fix a couple more bugs like the bug with embedded videos not working properly (possibly a regex issue that i did not notice while testing?)\n\nOh by the way i will also make it so that the blog posts don't show the whole text, but rather the title, description and the date of posting (just like what you would see in most blogs)\n\nMaybe i might also make a lot of stuff in one website, but that might get quite unreliable real fast. Maybe i'll try to figure out how to do seamless transitions with changing the website URLs\n\nExpect a lot of stuff to change in this week with this site, possibly. Even also a separate page for my projects eventually.\n\nOh by the way, the site might actually look cool when im done with the upcoming remake.\n\n<p style=\"scale: 50%\">on a different note i've been doing a little bit of PSP game development stuff</p>","date":"01/08/2023 21:12 UTC+3"}}
+  {
+    "user": {
+      "name": "Voxelstice",
+      "src": "https://cdn.discordapp.com/avatars/563639236507729920/e53061b9ad289ecd55449b13a9d007ca.png?size=4096"
+    },
+    "post": {
+      "text": "If you were wondering what happened to the profile pictures of my blog posts in this site, simply said, I changed my Discord profile picture which seemed to remove the regular profile picture I had from the Discord's servers (yes the link to my profile picture is just a Discord link)\n\nI have not shared stuff for a while, but 2 weeks ago I made a NTM RBMK Simulator. [Check it out here](https://voxelstice.github.io/ntm-rbmk-simulator/)\n\nUmm, the repl.it outage seems to have been fixed but I am probably not planning to use it for now\n\nOh by the way youtube seems to have gave my community tab access back, so I'll probably won't use this for a while but if there's anything major I need to share that I just can't fit into a single community post, it will be here",
+      "date": "27/04/2023 23:04 UTC+3"
+    }
+  },
+  {
+    "user": {
+      "name": "Voxelstice",
+      "src": "https://cdn.discordapp.com/avatars/563639236507729920/e53061b9ad289ecd55449b13a9d007ca.png?size=4096"
+    },
+    "post": {
+      "text": "# Site update - v0.0.2a\nHi, I've released a update for this site, here are the changes:\n\n- When there's a error in a post, it will have text below the post indicating a error has occurred.\n- Added a topbar for the [voxelstice.github.io](https://voxelstice.github.io) site and this site",
+      "date": "09/04/2023 16:55 UTC+3"
+    }
+  },
+  {
+    "user": {
+      "name": "Voxelstice",
+      "src": "https://cdn.discordapp.com/avatars/563639236507729920/e53061b9ad289ecd55449b13a9d007ca.png?size=4096"
+    },
+    "post": {
+      "text": "# Current issues\nThis blog site is still new, and kinda rushed, so there is issues with the site right now.\n\nThe current and important issue is the server to the post list. I wanted to use repl.it for the post list, which allowed me to easily make new posts (if I ever decide to make a post editor for my own use), but it had a major issue being the CORS. I kind of eventually figured it out but in the time of writing this, repl.it apparently has an active incident \"Hosting is unstable and Redis connections are timing out\". This may explain why I was having such issues, but as of now I've switched to using GitHub for the posts.",
+      "date": "07/04/2023 22:47 UTC+3"
+    }
+  },
+  {
+    "user": {
+      "name": "Voxelstice",
+      "src": "https://cdn.discordapp.com/avatars/563639236507729920/e53061b9ad289ecd55449b13a9d007ca.png?size=4096"
+    },
+    "post": {
+      "text": "# Hi and welcome to my first blog post\nThis blog site is something i've been coding for a while, using the *marked* library to parse markdown text.\n\nAt first, it started with me testing out the marked library, then I noticed videos are not being embedded, so I spent time getting it to work\n\nSince it works now, here's a video of a cat named Maxwell.\n\n[video](https://cdn.discordapp.com/attachments/822365198743896094/1086723680635211887/maxwell2.mp4)\n\n<em style=\"font-size: 15px;\">i (hate) love regex!!!!!!!!!!!!!!!</em>\n\n# Comments and the backend\nRight now, I am not sure how to implement this since the backend server for this site is hosted with [repl.it](https://replit.com/). By default, the servers repl.it has are very bad. I get like 0.5 vCPUs, 512 MB of RAM, and 1,024 MBs of storage just for a server, and this is not enough for comments.\n\nThe second problem is the account system, as it usually helps in reducing spam. I do not know what service to use for this, and even if I knew one, there's a high possibility it's either paid or not compatible for use with repl.it.\n\n<em style=\"font-size: 15px;\">UPDATE: [giscus](https://giscus.app/) is now being used for the comments. Read the post from 17/05/2023.</em>\n\n# Why did I make this site\nEver since I got access to the YouTube community tab, this seemed like the only way of posting updates for specific stuff and the channel. However, at 06/04/2023, YouTube randomly disabled my ability to make any new community posts.\n\n![Community tab and the channel](https://cdn.discordapp.com/attachments/822365198743896094/1093902201170178108/firefox_eJcxEtMRVw.png)\n\nThis came out of nowhere and I still dont know why this happened\n\n# Source code\nThis site is open-source on [GitHub](https://github.com/Voxelstice/voxelblog). The backend server is also open-source on GitHub. You are allowed to self-host this site all you want, but you have to credit Voxelstice (this project is simple but it took hours to make)",
+      "date": "07/04/2023 20:29 UTC+3"
+    }
+  },
 ]
