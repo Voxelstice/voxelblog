@@ -1,6 +1,34 @@
 [
   {
   	"info": {
+  		"title": "New site",
+  		"header": "yes, i remade the site entirely."
+  	},
+  	"content": [
+  		"# Header",
+		"i took my time to remake the website to look nicer. was it worth it? probably.",
+  		"## website changes",
+		"- new topbar",
+		"- background is a little bit white",
+		"- home page now has some actual info instead of just looking ugly and having bad info",
+		"	- some other accounts (other than blog) is also in there",
+		"",
+		"it doesn't end without saying the blog has received a couple of changes aswell"
+		"## blog changes",
+		"- instead of showing everything at once, it now shows the title of blog posts and header, you have to click on it to look at it's contents",
+		"	- this should be more performant",
+		"- slightly new format, instead of having a user (im basically the only one maintaining this website to begin with), there's only basic post info and the content itself",
+		"- blog site is now directly integrated into voxelstice.github.io, which, if you noticed, you might have been redirected from voxelblog to blog. this is why.",
+		"",
+		"ok but, voxelstice. is there anything else?",
+		"## the anything else",
+		"school has kind of taken up a LOT of my time, trying to get good marks and atleast some work done outside of school",
+		"...which speaking of, have you checked out a destruction game? just go to the home page and check projects",
+		"other than a destruction game, i barely done anything. ok bye (pretend that you get sent back to the home page as you click \"ok bye\")"
+  	]
+  },
+  {
+  	"info": {
   		"title": "FIRST TEST BLOG POST AS OF 15/10/2023 22:39 (its night)",
   		"header": "if this works im gonna happy"
   	},
